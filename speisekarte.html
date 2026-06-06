@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light only">
+  <meta name="darkreader-lock">
+  <meta name="description" content="Vollständige Speisekarte – Restaurant Athos Berlin-Pankow. Kalte &amp; warme Vorspeisen, Grillspezialitäten, Fisch, Grillteller, Steaks und mehr.">
+  <title>Speisekarte – Restaurant Athos Berlin-Pankow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page-speisekarte">
+
+<header class="site-header scrolled" id="site-header">
+  <nav class="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="nav-logo" aria-label="Restaurant Athos – Zur Startseite">
+        <span class="logo-name">Athos</span>
+        <span class="logo-sub">Griechisches Restaurant · Berlin</span>
+      </a>
+      <ul class="nav-links" role="navigation" aria-label="Hauptnavigation">
+        <li><a href="index.html#ueber-uns"   class="nav-link">Über Uns</a></li>
+        <li><a href="speisekarte.html"        class="nav-link" aria-current="page">Speisekarte</a></li>
+        <li><a href="index.html#galerie"      class="nav-link">Galerie</a></li>
+        <li><a href="index.html#bewertungen"  class="nav-link">Bewertungen</a></li>
+        <li><a href="index.html#kontakt"      class="nav-link">Kontakt</a></li>
+      </ul>
+      <div class="nav-right">
+        <a href="index.html#reservierung" class="btn btn-primary btn-sm nav-reserve">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Tisch reservieren
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<nav class="mobile-nav" id="mobile-nav" aria-label="Mobiles Menü">
+  <div class="mobile-nav-inner">
+    <ul class="mobile-nav-links">
+      <li><a href="index.html#ueber-uns">Über Uns</a></li>
+      <li><a href="speisekarte.html">Speisekarte</a></li>
+      <li><a href="index.html#galerie">Galerie</a></li>
+      <li><a href="index.html#bewertungen">Bewertungen</a></li>
+      <li><a href="index.html#kontakt">Kontakt</a></li>
+    </ul>
+    <a href="index.html#reservierung" class="btn btn-primary mobile-nav-cta">Tisch reservieren</a>
+    <div class="mobile-nav-info">
+      <p>Hermann-Hesse-Str. 27 · 13156 Berlin-Pankow</p>
+      <a href="tel:+493081477287">+49 30 81477287</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <div class="menu-page-hero">
+    <div class="container">
+      <div class="section-eyebrow" style="justify-content:center">Unsere Küche</div>
+      <h1 style="font-family:var(--font-heading);font-style:italic;font-weight:600;color:#fff">Speisekarte</h1>
+      <p style="color:rgba(255,255,255,0.65)">Alle Speisen werden täglich frisch zubereitet. Herzlich willkommen im Restaurant Athos.</p>
+      <div style="margin-top:var(--space-xl);display:flex;gap:var(--space-md);justify-content:center;flex-wrap:wrap">
+        <a href="index.html#reservierung" class="btn btn-terracotta btn-lg">Tisch reservieren</a>
+        <a href="tel:+493081477287" class="btn btn-outline-white">+49 30 81477287</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="menu-page-body">
+    <div class="container">
+
+      <div class="menu-tabs" role="tablist">
+        <button class="menu-tab active" data-target="kalte-vorspeisen"  role="tab">🥬 Kalte Vorspeisen</button>
+        <button class="menu-tab"        data-target="warme-vorspeisen"  role="tab">🔥 Warme Vorspeisen</button>
+        <button class="menu-tab"        data-target="salate"            role="tab">🥗 Salate</button>
+        <button class="menu-tab"        data-target="suppen"            role="tab">🍲 Suppen</button>
+        <button class="menu-tab"        data-target="fisch"             role="tab">🐟 Fisch</button>
+        <button class="menu-tab"        data-target="grill"             role="tab">🔥 Grillspezialitäten</button>
+        <button class="menu-tab"        data-target="grillteller"       role="tab">🍽️ Grillteller</button>
+        <button class="menu-tab"        data-target="steaks"            role="tab">🥩 Steaks</button>
+        <button class="menu-tab"        data-target="fuer-zwei"         role="tab">👥 Für 2 Personen</button>
+        <button class="menu-tab"        data-target="schnitzel"         role="tab">🍖 Schnitzel</button>
+      </div>
+
+      <!-- KALTE VORSPEISEN -->
+      <section class="menu-section" id="kalte-vorspeisen">
+        <div class="menu-section-header"><span class="menu-section-icon">🥬</span><h2>Kalte Vorspeisen</h2></div>
+        <div class="menu-items-list">
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">01 · Zaziki</span><p class="menu-item-desc">Hausgemachte Spezialität mit Gurken, Knoblauch, vielen Gewürzen und Brot</p><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span></div></div><span class="menu-item-price">–</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">02 · Oliven mit Peperoni</span><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span></div></div><span class="menu-item-price">8,20 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">03 · Taramas</span><p class="menu-item-desc">Delikater Fischrogensalat</p></div><span class="menu-item-price">8,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">04 · Käsesalat (Chtipiti)</span><p class="menu-item-desc">Scharf gewürzt</p><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span></div></div><span class="menu-item-price">8,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">05 · Ouzo Messe</span><p class="menu-item-desc">Zaziki, Taramas, Oliven, Peperoni, Schafskäse, Octopussalat und Kalamarissalat</p><div class="menu-item-badges"><span class="badge badge-house">🏛️ Hausempfehlung</span></div></div><span class="menu-item-price">17,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">06 · Octopussalat</span><p class="menu-item-desc">Tintenfisch mit Zaziki, Oliven und Zitronensaft</p></div><span class="menu-item-price">9,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">07 · Kalamaris</span><p class="menu-item-desc">Tintenfisch mit Zaziki, Oliven und Zitronensaft</p></div><span class="menu-item-price">9,90 €</span></div>
+        </div>
+      </section>
+
+      <!-- WARME VORSPEISEN -->
+      <section class="menu-section" id="warme-vorspeisen">
+        <div class="menu-section-header"><span class="menu-section-icon">🔥</span><h2>Warme Vorspeisen</h2></div>
+        <div class="menu-items-list">
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">08 · Skordopsomo</span><p class="menu-item-desc">Knoblauchbrot</p><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span></div></div><span class="menu-item-price">5,20 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">09 · Saganaki</span><p class="menu-item-desc">Gebratener Schafskäse</p><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span><span class="badge badge-popular">Beliebt</span></div></div><span class="menu-item-price">9,60 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">10 · Gebackener Schafskäse</span><p class="menu-item-desc">Mit Tomaten, Knoblauch, Kräutern, Zwiebeln und Peperoni</p><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span></div></div><span class="menu-item-price">9,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">11 · Tiropitakia – Spanakopitakia</span><p class="menu-item-desc">Blätterteigstücke gefüllt mit Schafskäse und Spinat</p><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span></div></div><span class="menu-item-price">8,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">12 · Gebratene Auberginen</span><p class="menu-item-desc">Mit Zaziki</p><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span></div></div><span class="menu-item-price">9,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">13 · Gebratene Zucchini</span><p class="menu-item-desc">Mit Zaziki</p><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span></div></div><span class="menu-item-price">9,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">14 · Dicke Bohnen mit Schafskäse</span><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span></div></div><span class="menu-item-price">10,00 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">15 · Grüne Bohnen mit Schafskäse</span><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span></div></div><span class="menu-item-price">10,00 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">16 · Auberginen mit Schafskäse</span><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span></div></div><span class="menu-item-price">10,00 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">17 · Gefüllte Champignons</span><p class="menu-item-desc">Mit pikanter Sauce überbacken</p><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span></div></div><span class="menu-item-price">9,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">18 · Gebackene Champignons</span><p class="menu-item-desc">Mit Reis und Kräutern</p><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span></div></div><span class="menu-item-price">11,00 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">19 · Dolmadakia</span><p class="menu-item-desc">Gefüllte Weinblätter mit Reis</p><div class="menu-item-badges"><span class="badge badge-popular">Beliebt</span></div></div><span class="menu-item-price">8,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">20 · Peperoni gegrillt</span><p class="menu-item-desc">Mit Knoblauch-Dressing</p><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span></div></div><span class="menu-item-price">8,50 €</span></div>
+          <div class="menu-item" style="grid-column:1/-1;background:var(--cream);border-color:var(--sand)"><div class="menu-item-body"><span class="menu-item-name">21 · Gemischte Vorspeisenplatte</span><p class="menu-item-desc">Verschiedene warme Vorspeisen für 1 Person</p><div class="menu-item-badges"><span class="badge badge-house">🏛️ Empfehlung</span></div></div><span class="menu-item-price">17,90 €</span></div>
+        </div>
+      </section>
+
+      <!-- SALATE -->
+      <section class="menu-section" id="salate">
+        <div class="menu-section-header"><span class="menu-section-icon">🥗</span><h2>Salate</h2></div>
+        <div class="menu-items-list">
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">23 · Griechischer Bauernsalat</span><p class="menu-item-desc">Mit Tomaten, Gurken, Paprika, Peperoni, Zwiebeln und Schafskäse</p><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span><span class="badge badge-popular">Klassiker</span></div></div><span class="menu-item-price">13,50 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">24 · Griechischer Bauernsalat (klein)</span><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span></div></div><span class="menu-item-price">9,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">25 · Athos Salat</span><p class="menu-item-desc">Mit gegrilltem Hähnchenbrustfilet</p><div class="menu-item-badges"><span class="badge badge-house">Hausempfehlung</span></div></div><span class="menu-item-price">14,20 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">26 · Beilage Salat</span><div class="menu-item-badges"><span class="badge badge-veg">🌿 Vegetarisch</span></div></div><span class="menu-item-price">6,50 €</span></div>
+        </div>
+      </section>
+
+      <!-- SUPPEN -->
+      <section class="menu-section" id="suppen">
+        <div class="menu-section-header"><span class="menu-section-icon">🍲</span><h2>Suppen</h2></div>
+        <div class="menu-items-list">
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">27 · Original Griechische Bohnensuppe</span></div><span class="menu-item-price">5,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">28 · Hühnersuppe</span></div><span class="menu-item-price">5,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">29 · Gulaschsuppe</span></div><span class="menu-item-price">5,90 €</span></div>
+        </div>
+      </section>
+
+      <!-- FISCH -->
+      <section class="menu-section" id="fisch">
+        <div class="menu-section-header"><span class="menu-section-icon">🐟</span><h2>Fisch-Spezialitäten</h2></div>
+        <div class="menu-items-list">
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">31 · Scampis</span><p class="menu-item-desc">5 Stück in der Pfanne gebraten mit Taramas, Knoblauchsauce, Reis und Broccoli</p></div><span class="menu-item-price">20,80 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">32 · Kalamaris</span><p class="menu-item-desc">Tintenfisch in der Pfanne gebraten, mit Knoblauchsauce, Taramas und Reis</p></div><span class="menu-item-price">20,30 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">33 · Tropenzungenfilet</span><p class="menu-item-desc">Mit Knoblauchsauce, Reis und Broccoli</p></div><span class="menu-item-price">20,50 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">34 · Lachsfilet</span><p class="menu-item-desc">In Weißwein abgelöscht, mit Knoblauchsauce, frischen Champignons, Kräutern, Broccoli, dazu Taramas</p><div class="menu-item-badges"><span class="badge badge-house">Empfehlung</span></div></div><span class="menu-item-price">23,00 €</span></div>
+          <div class="menu-item" style="grid-column:1/-1;background:var(--cream);border-color:var(--sand)"><div class="menu-item-body"><span class="menu-item-name">35 · Fisch-Platte</span><p class="menu-item-desc">2 Scampis, Kalamaris, Tropenzungenfilet, Lachssteak, Taramas, Knoblauchsauce, Folienkartoffeln und Broccoli</p><div class="menu-item-badges"><span class="badge badge-popular">Für Fischliebhaber</span></div></div><span class="menu-item-price">25,00 €</span></div>
+        </div>
+      </section>
+
+      <!-- GRILLSPEZIALITÄTEN -->
+      <section class="menu-section" id="grill">
+        <div class="menu-section-header"><span class="menu-section-icon">🔥</span><h2>Grillspezialitäten</h2></div>
+        <div class="menu-items-list">
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">37 · Suflaki mit Zaziki</span><p class="menu-item-desc">2 Schweinefleischschpieße mit Pommes und Reis</p><div class="menu-item-badges"><span class="badge badge-popular">Bestseller</span></div></div><span class="menu-item-price">17,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">38 · Gyros mit Zaziki</span><p class="menu-item-desc">Schweinefleischspezialität geschnitten vom Riesenfleischspieß, Pommes und Reis</p><div class="menu-item-badges"><span class="badge badge-popular">Bestseller</span></div></div><span class="menu-item-price">17,20 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">39 · Susuki</span><p class="menu-item-desc">3 pikante Schweinehackröllchen, Pommes und Reis</p></div><span class="menu-item-price">18,20 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">40 · Schweinesteaks mit gerösteten Zwiebeln</span><p class="menu-item-desc">Pommes und Reis</p></div><span class="menu-item-price">17,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">41 · Schweinesteaks mit Kräuterbutter</span><p class="menu-item-desc">Pommes und Reis</p></div><span class="menu-item-price">17,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">42 · Bifteki</span><p class="menu-item-desc">Schweinehackfleisch gefüllt mit Feta, Metaxasauce, Pommes und Reis</p><div class="menu-item-badges"><span class="badge badge-house">Hausklassiker</span></div></div><span class="menu-item-price">18,20 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">43 · Leber vom Rind</span><p class="menu-item-desc">Mit gerösteten Zwiebeln, Pommes und Reis</p></div><span class="menu-item-price">17,20 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">44 · Hähnchenbrustfilet</span><p class="menu-item-desc">Mit grünen Bohnen, Pommes und Reis</p></div><span class="menu-item-price">18,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">45 · 2 Schweinesteaks gefüllt mit Feta</span><p class="menu-item-desc">Dazu dicke Bohnen, Zwiebeln, Paprika, Tomaten und Kroketten</p></div><span class="menu-item-price">18,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">46 · Putenbrustfilet</span><p class="menu-item-desc">Mit grünen Bohnen, Pommes und Reis</p></div><span class="menu-item-price">19,00 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">47 · Pute gefüllt</span><p class="menu-item-desc">Mit zwei Sorten Käse, Zwiebeln, Tomaten, Senf, Paprika, dazu dicke Bohnen und Kroketten</p></div><span class="menu-item-price">19,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">48 · Pfeffersteaks</span><p class="menu-item-desc">Schweinesteaks mit einer pikanten, scharfen Pfeffersauce, dazu Reis und Pommes</p></div><span class="menu-item-price">19,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">49 · Lammkoteletts mit Auberginen</span><p class="menu-item-desc">Reis und Pommes</p></div><span class="menu-item-price">22,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">50 · Lammfilet</span><p class="menu-item-desc">Mit grünen Bohnen und Reis</p></div><span class="menu-item-price">23,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">51 · Lammteller</span><p class="menu-item-desc">Lammkoteletts, Lammfilet mit Auberginen und Knoblauch-Röstkartoffeln</p><div class="menu-item-badges"><span class="badge badge-house">Empfehlung</span></div></div><span class="menu-item-price">24,00 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">52 · Lammspieß</span><p class="menu-item-desc">Lammfilet mit Paprika und Zwiebeln, dazu Knoblauch-Röstkartoffeln</p></div><span class="menu-item-price">23,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">53 · Spezialspieß</span><p class="menu-item-desc">Lammfilet, Rump- und Lammsteak, Paprika, Folienkartoffeln mit Zaziki</p></div><span class="menu-item-price">24,00 €</span></div>
+        </div>
+      </section>
+
+      <!-- GRILLTELLER -->
+      <section class="menu-section" id="grillteller">
+        <div class="menu-section-header"><span class="menu-section-icon">🍽️</span><h2>Grillteller</h2></div>
+        <div class="menu-note" style="margin-bottom:var(--space-xl)">Alle Grillteller werden mit Pommes und Reis serviert, sofern nicht anders angegeben.</div>
+        <div class="menu-items-list">
+          <div class="menu-item" style="background:var(--cream);border-color:var(--sand)"><div class="menu-item-body"><span class="menu-item-name">65 · Athos-Teller</span><p class="menu-item-desc">Gyros, Suflaki, Lammkotelett, Schweinesteak, Zaziki, Pommes und Reis</p><div class="menu-item-badges"><span class="badge badge-house">🏛️ Unser Klassiker</span><span class="badge badge-popular">Sehr beliebt</span></div></div><span class="menu-item-price">20,50 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">66 · Artemis-Teller</span><p class="menu-item-desc">1 Suflaki, Gyros, Schweinesteak, Zaziki, Reis</p></div><span class="menu-item-price">19,50 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">67 · Apollon-Teller</span><p class="menu-item-desc">Gyros, Schweinesteak, Suflaki, Zaziki, Reis</p></div><span class="menu-item-price">19,50 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">68 · Dionysos-Teller</span><p class="menu-item-desc">Gyros, Schweinesteak, 1 Lammkotelett, Zaziki, Reis</p></div><span class="menu-item-price">19,70 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">69 · Ouzo-Teller</span><p class="menu-item-desc">Gyros, 1 Suflaki, 1 Susuki, Zaziki, Reis</p></div><span class="menu-item-price">19,30 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">70 · Olymp-Teller</span><p class="menu-item-desc">Rinderleber, 2 Lammkoteletts, Gyros, Zaziki, Reis</p></div><span class="menu-item-price">19,50 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">71 · Zeus-Teller</span><p class="menu-item-desc">1 Suflaki, 1 Lammkotelett, 2 Susuki, Zaziki, Reis</p></div><span class="menu-item-price">19,70 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">72 · Grill-Teller</span><p class="menu-item-desc">1 Schweinekotelett, 2 Suflaki, 2 Susuki, Rinderleber, Zaziki, Reis</p></div><span class="menu-item-price">18,70 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">74 · Korfu-Teller</span><p class="menu-item-desc">2 Schweinesteaks, 1 Susuki, Rumpsteak, Zaziki, Reis</p></div><span class="menu-item-price">25,00 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">223 · Hellas-Teller</span><p class="menu-item-desc">Gyros, Bifteki, Zaziki, Pommes, Reis</p></div><span class="menu-item-price">19,50 €</span></div>
+          <div class="menu-item" style="grid-column:1/-1"><div class="menu-item-body"><span class="menu-item-name">75 · Überraschungsteller vom Grill</span><p class="menu-item-desc">Lassen Sie sich überraschen und verwöhnen!</p></div><span class="menu-item-price">–</span></div>
+        </div>
+      </section>
+
+      <!-- STEAKS -->
+      <section class="menu-section" id="steaks">
+        <div class="menu-section-header"><span class="menu-section-icon">🥩</span><h2>Steaks</h2></div>
+        <div class="menu-items-list">
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">57 · Rumpsteak mit Kräuterbutter</span><p class="menu-item-desc">Dazu grüne Bohnen und Bratkartoffeln</p></div><span class="menu-item-price">22,50 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">58 · Rumpsteak mit gebratenen Zwiebeln</span><p class="menu-item-desc">Dazu grüne Bohnen und Bratkartoffeln</p></div><span class="menu-item-price">22,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">59 · Rumpsteak mit Pfeffersauce</span><p class="menu-item-desc">Dazu grüne Bohnen und Bratkartoffeln</p></div><span class="menu-item-price">22,90 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">60 · Rumpsteak und Lammfilet</span><p class="menu-item-desc">Mit Kräuterbutter, grünen Bohnen und Bratkartoffeln</p><div class="menu-item-badges"><span class="badge badge-house">Empfehlung</span></div></div><span class="menu-item-price">23,50 €</span></div>
+        </div>
+      </section>
+
+      <!-- FÜR 2 PERSONEN -->
+      <section class="menu-section" id="fuer-zwei">
+        <div class="menu-section-header"><span class="menu-section-icon">👥</span><h2>Grillspezialitäten für 2 Personen</h2></div>
+        <p style="color:var(--text-mid);margin-bottom:var(--space-xl);font-size:0.95rem">Auf Wunsch auch für mehrere Personen möglich.</p>
+        <div class="menu-items-list">
+          <div class="menu-item" style="background:var(--cream);border-color:var(--sand)"><div class="menu-item-body"><span class="menu-item-name">61 · Athos-Platte</span><p class="menu-item-desc">Gyros, 2 Lammkoteletts, 2 Lammfilets, 2 Suflaki, 2 Zaziki, dazu Pommes und Bauernsalat</p><div class="menu-item-badges"><span class="badge badge-house">🏛️ Hausempfehlung</span></div></div><span class="menu-item-price">48,00 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">62 · Wein-Platte</span><p class="menu-item-desc">2 Schweinekoteletts, 2 Lammkoteletts, 2 Hähnchenbrustfilets, Putenbrustfilet, Pommes, Reis, gemischter Salat und Zaziki</p></div><span class="menu-item-price">46,00 €</span></div>
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">63 · Koch-Platte</span><p class="menu-item-desc">2 Suflaki, 2 Schweinesteaks, 2 Susuki, Gyros, Rinderleber, Reis, Pommes, Zaziki und Bauernsalat</p></div><span class="menu-item-price">46,00 €</span></div>
+        </div>
+      </section>
+
+      <!-- SCHNITZEL -->
+      <section class="menu-section" id="schnitzel">
+        <div class="menu-section-header"><span class="menu-section-icon">🍖</span><h2>Schnitzel</h2></div>
+        <div class="menu-items-list">
+          <div class="menu-item"><div class="menu-item-body"><span class="menu-item-name">64 · Schnitzel paniert</span><p class="menu-item-desc">Schweinefleisch mit Rahmsauce und Champignons, dazu Pommes und Reis</p></div><span class="menu-item-price">17,90 €</span></div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <div style="text-align:center;margin-top:var(--space-4xl);padding:var(--space-3xl);background:var(--cream);border-radius:var(--radius-xl);border:1px solid var(--sand)">
+        <div class="section-eyebrow" style="justify-content:center">Lust bekommen?</div>
+        <h2 style="font-family:var(--font-heading);font-size:2.5rem;font-weight:600;margin-bottom:var(--space-md)">Jetzt Ihren Tisch <em>reservieren</em></h2>
+        <p style="color:var(--text-mid);margin-bottom:var(--space-2xl);max-width:480px;margin-inline:auto">Kommen Sie vorbei – wir freuen uns auf Sie. Ouzo aufs Haus zur Begrüßung.</p>
+        <div style="display:flex;gap:var(--space-md);justify-content:center;flex-wrap:wrap">
+          <a href="index.html#reservierung" class="btn btn-primary btn-lg">Tisch reservieren</a>
+          <a href="https://wa.me/493081477287" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">WhatsApp</a>
+          <a href="tel:+493081477287" class="btn btn-outline-blue btn-lg">+49 30 81477287</a>
+        </div>
+        <p style="margin-top:var(--space-lg);font-size:0.82rem;color:var(--text-light)">Alle Preise inkl. MwSt. · Irrtümer und Preisänderungen vorbehalten · Allergene auf Anfrage</p>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-main container">
+    <div class="footer-brand"><a href="index.html"><span class="logo-name">Athos</span><span class="logo-sub">Griechisches Restaurant · Berlin</span></a><p class="footer-tagline">Hermann-Hesse-Str. 27 · 13156 Berlin-Pankow</p></div>
+    <div><span class="footer-col-title">Navigation</span><ul class="footer-links"><li><a href="index.html">Startseite</a></li><li><a href="index.html#ueber-uns">Über Uns</a></li><li><a href="speisekarte.html">Speisekarte</a></li><li><a href="index.html#reservierung">Reservierung</a></li><li><a href="index.html#kontakt">Kontakt</a></li></ul></div>
+    <div><span class="footer-col-title">Öffnungszeiten</span><div class="footer-hours-list"><div class="footer-hours-row"><span class="hours-day">Mo–Fr</span><span class="hours-time">15:00–23:00</span></div><div class="footer-hours-row"><span class="hours-day">Sa–So</span><span class="hours-time">11:30–23:00</span></div></div></div>
+    <div><span class="footer-col-title">Kontakt</span><div class="footer-links"><a href="tel:+493081477287">+49 30 81477287</a><a href="https://wa.me/493081477287" target="_blank" rel="noopener">WhatsApp</a><span style="color:rgba(255,255,255,0.5);font-size:0.9rem">Hermann-Hesse-Str. 27<br>13156 Berlin-Pankow</span></div></div>
+  </div>
+  <div class="footer-bottom"><div class="container" style="display:flex;flex-direction:column;align-items:center;gap:var(--space-xs);width:100%"><p>© 2025 Restaurant Athos · <a href="tel:+493081477287">+49 30 81477287</a></p></div></div>
+</footer>
+
+<div class="floating-actions">
+  <a href="https://wa.me/493081477287?text=Hallo!%20Ich%20m%C3%B6chte%20gerne%20einen%20Tisch%20reservieren." class="fab fab-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+  </a>
+  <a href="tel:+493081477287" class="fab fab-phone" aria-label="Anrufen">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 2.93 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 17z"/></svg>
+  </a>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

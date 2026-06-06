@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light only">
+  <meta name="darkreader-lock">
+  <meta name="description" content="Restaurant Athos in Berlin-Pankow – Authentische griechische Küche, herzliche Gastfreundschaft und frische mediterrane Spezialitäten. Jetzt anrufen.">
+  <meta property="og:title" content="Restaurant Athos – Authentische Griechische Küche Berlin-Pankow">
+  <meta property="og:description" content="Herzliche Gastfreundschaft, frische mediterrane Küche und griechische Spezialitäten in Berlin-Pankow.">
+  <title>Restaurant Athos – Authentische Griechische Küche in Berlin-Pankow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header hero-top" id="site-header">
+  <nav class="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="nav-logo" aria-label="Restaurant Athos – Zur Startseite">
+        <span class="logo-name">Athos</span>
+        <span class="logo-sub">Griechisches Restaurant · Berlin</span>
+      </a>
+      <ul class="nav-links" role="navigation" aria-label="Hauptnavigation">
+        <li><a href="#ueber-uns"       class="nav-link">Über Uns</a></li>
+        <li><a href="speisekarte.html" class="nav-link">Speisekarte</a></li>
+        <li><a href="#galerie"         class="nav-link">Galerie</a></li>
+        <li><a href="#bewertungen"     class="nav-link">Bewertungen</a></li>
+        <li><a href="#kontakt"         class="nav-link">Kontakt</a></li>
+      </ul>
+      <div class="nav-right">
+        <a href="tel:+493081477287" class="btn btn-primary btn-sm nav-reserve">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 2.93 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 17z"/></svg>
+          Jetzt anrufen
+        </a>
+        <button class="hamburger" id="hamburger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<nav class="mobile-nav" id="mobile-nav" aria-label="Mobiles Menü">
+  <div class="mobile-nav-inner">
+    <ul class="mobile-nav-links">
+      <li><a href="#ueber-uns">Über Uns</a></li>
+      <li><a href="speisekarte.html">Speisekarte</a></li>
+      <li><a href="#galerie">Galerie</a></li>
+      <li><a href="#bewertungen">Bewertungen</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#kontakt">Kontakt</a></li>
+    </ul>
+    <a href="tel:+493081477287" class="btn btn-primary mobile-nav-cta">Jetzt anrufen</a>
+    <div class="mobile-nav-info">
+      <p>Hermann-Hesse-Str. 27 · 13156 Berlin-Pankow</p>
+      <a href="tel:+493081477287">+49 30 81477287</a>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-slides" aria-hidden="true">
+    <div class="hero-slide" style="background-image: url('Hero%20Picture.jpg');"></div>
+  </div>
+  <div class="hero-overlay" aria-hidden="true"></div>
+  <div class="hero-content container">
+    <div class="hero-eyebrow">
+      <span class="hero-dots">· · ·</span>
+      <span>Griechisches Restaurant · Berlin-Pankow</span>
+      <span class="hero-dots">· · ·</span>
+    </div>
+    <h1 class="hero-title">
+      <span class="hero-title-restaurant" style="color:#fff">Restaurant</span>
+      <em class="hero-title-name" style="color:#fff">Athos</em>
+    </h1>
+    <p class="hero-subtitle">Authentische griechische Küche mit Herz mitten in Berlin</p>
+    <div class="hero-actions">
+      <a href="tel:+493081477287" class="btn btn-primary btn-xl">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 2.93 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 17z"/></svg>
+        Jetzt anrufen
+      </a>
+      <a href="speisekarte.html" class="btn btn-outline-white btn-xl">Speisekarte ansehen</a>
+    </div>
+  </div>
+  <div class="hero-infobar">
+    <div class="container hero-infobar-inner">
+      <div class="hero-info-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <div><span class="hero-info-label">Mo – Fr</span><span class="hero-info-value">15:00 – 23:00</span></div>
+      </div>
+      <div class="hero-info-sep"></div>
+      <div class="hero-info-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        <div><span class="hero-info-label">Sa – So</span><span class="hero-info-value">11:30 – 23:00</span></div>
+      </div>
+      <div class="hero-info-sep"></div>
+      <div class="hero-info-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        <div><span class="hero-info-label">Google Bewertung</span><span class="hero-info-value">4,5 ★ · 773 Stimmen</span></div>
+      </div>
+      <div class="hero-info-sep"></div>
+      <div class="hero-info-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        <div><span class="hero-info-label">Adresse</span><span class="hero-info-value">Hermann-Hesse-Str. 27</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ÜBER UNS -->
+<section class="about section-pad" id="ueber-uns">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-visual" data-reveal="left">
+        <div class="about-img-frame">
+          <img src="https://img02.restaurantguru.com/c5ca-Athos-Berlin-food-3.jpg" alt="Mediterrane Spezialitäten im Restaurant Athos Berlin" loading="lazy">
+        </div>
+        <div class="about-badge">
+          <div class="about-badge-icon">🫒</div>
+          <strong>Herzliche Gastfreundschaft</strong>
+          <span>Ouzo aufs Haus – so wie in Griechenland</span>
+        </div>
+      </div>
+      <div class="about-text" data-reveal="right">
+        <div class="section-eyebrow">Über Uns</div>
+        <h2 class="section-heading">Wo Griechenland<br><em>zu Hause ist</em></h2>
+        <div class="divider"><div class="divider-line"></div><div class="divider-ornament">✦</div><div class="divider-line"></div></div>
+        <p>Im Restaurant Athos begrüßen wir unsere Gäste so, wie man es nur in Griechenland kennt: mit offenen Armen, einem Glas Ouzo und Gerichten, die nach bewährten Familienrezepten zubereitet werden.</p>
+        <p>Seit Jahren sind wir ein fester Bestandteil von Berlin-Pankow – ein Ort, an dem Stammgäste wie zu Hause sind und neue Gäste sofort willkommen heißen.</p>
+        <p>Unsere Küche verbindet die ehrlichsten Aromen des Mittelmeers mit echter Gastfreundschaft – täglich frische Zutaten, handgemachte Vorspeisen und Grillspezialitäten direkt vom Stein. Im Sommer laden wir auf unsere große Terrasse ein.</p>
+        <div class="about-features">
+          <div class="about-feature"><div class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div><span>Authentische Familienrezepte</span></div>
+          <div class="about-feature"><div class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div><span>Täglich frische Zutaten</span></div>
+          <div class="about-feature"><div class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div><span>Große Terrasse im Sommer</span></div>
+          <div class="about-feature"><div class="check-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div><span>Ouzo – Willkommen aufs Haus</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SPEISEKARTE ÜBERSICHT -->
+<section class="menu-overview section-pad bg-cream" id="speisekarte-kategorien">
+  <div class="container">
+    <div class="section-header centered" data-reveal>
+      <div class="section-eyebrow">Unsere Küche</div>
+      <h2 class="section-heading">Von Vorspeisen bis<br><em>zum Grill</em></h2>
+      <p class="section-desc">Entdecken Sie die Vielfalt der griechischen Küche – von klassischen Vorspeisen und frischen Salaten bis zu Grillspezialitäten und deftigen Grilltellern.</p>
+    </div>
+    <div class="menu-cats-grid">
+      <div class="menu-cat-card" data-reveal data-delay="1">
+        <span class="menu-cat-icon">🥬</span>
+        <h3>Kalte Vorspeisen</h3>
+        <p>Zaziki, Taramas, Oliven mit Peperoni, Octopussalat, Ouzo Messe</p>
+        <span class="menu-cat-from">ab 8,20 €</span>
+      </div>
+      <div class="menu-cat-card" data-reveal data-delay="2">
+        <span class="menu-cat-icon">🔥</span>
+        <h3>Warme Vorspeisen</h3>
+        <p>Saganaki, Dolmadakia, Tiropitakia, Spanakopitakia, Champignons</p>
+        <span class="menu-cat-from">ab 5,20 €</span>
+      </div>
+      <div class="menu-cat-card" data-reveal data-delay="3">
+        <span class="menu-cat-icon">🥗</span>
+        <h3>Salate &amp; Suppen</h3>
+        <p>Griechischer Bauernsalat, Athos Salat, Bohnensuppe, Hühnersuppe</p>
+        <span class="menu-cat-from">ab 5,90 €</span>
+      </div>
+      <div class="menu-cat-card" data-reveal data-delay="4">
+        <span class="menu-cat-icon">🐟</span>
+        <h3>Fisch-Spezialitäten</h3>
+        <p>Scampis, Kalamaris, Lachsfilet, Tropenzungenfilet, Fisch-Platte</p>
+        <span class="menu-cat-from">ab 20,30 €</span>
+      </div>
+      <div class="menu-cat-card" data-reveal data-delay="1">
+        <span class="menu-cat-icon">🍽️</span>
+        <h3>Grillspezialitäten</h3>
+        <p>Suflaki, Gyros, Bifteki, Susuki, Lammkoteletts, Lammspieß</p>
+        <span class="menu-cat-from">ab 17,20 €</span>
+      </div>
+      <div class="menu-cat-card" data-reveal data-delay="2">
+        <span class="menu-cat-icon">🏛️</span>
+        <h3>Grillteller</h3>
+        <p>Athos-Teller, Zeus-Teller, Olymp-Teller, Hellas-Teller und mehr</p>
+        <span class="menu-cat-from">ab 18,70 €</span>
+      </div>
+      <div class="menu-cat-card" data-reveal data-delay="3">
+        <span class="menu-cat-icon">🥩</span>
+        <h3>Steaks</h3>
+        <p>Rumpsteak mit Kräuterbutter, Zwiebeln oder Pfeffersauce</p>
+        <span class="menu-cat-from">ab 22,50 €</span>
+      </div>
+      <div class="menu-cat-card" data-reveal data-delay="4">
+        <span class="menu-cat-icon">👥</span>
+        <h3>Für 2 Personen</h3>
+        <p>Athos-Platte, Wein-Platte, Koch-Platte – auch für mehr Personen</p>
+        <span class="menu-cat-from">ab 46,00 €</span>
+      </div>
+    </div>
+    <div class="section-header centered" style="margin-top: var(--space-3xl); margin-bottom: 0;" data-reveal>
+      <a href="speisekarte.html" class="btn btn-primary btn-lg">Vollständige Speisekarte ansehen</a>
+    </div>
+  </div>
+</section>
+
+<!-- SIGNATUR-GERICHTE -->
+<section class="signature section-pad" id="signatur-gerichte">
+  <div class="container">
+    <div class="section-header centered" data-reveal>
+      <div class="section-eyebrow">Unsere Favoriten</div>
+      <h2 class="section-heading">Klassiker, die<br><em>begeistern</em></h2>
+      <p class="section-desc">Diese Gerichte kommen immer wieder auf den Tisch – weil sie einfach perfekt sind.</p>
+    </div>
+    <div class="signature-grid">
+      <article class="dish-card" data-reveal data-delay="1">
+        <div class="dish-img">
+          <img src="https://img02.restaurantguru.com/cc44-Athos-Berlin-meals-2.jpg" alt="Gyros mit Zaziki – Restaurant Athos Berlin" loading="lazy">
+        </div>
+        <div class="dish-body">
+          <span class="dish-tag">⭐ Bestseller</span>
+          <h3>Gyros mit Zaziki</h3>
+          <p>Schweinefleischspezialität, geschnitten vom Riesenfleischspieß. Serviert mit Zaziki, Pommes und Reis.</p>
+          <div class="dish-footer">
+            <span class="dish-price">17,20 €</span>
+            <a href="speisekarte.html" class="btn btn-outline-blue btn-sm">Zur Speisekarte</a>
+          </div>
+        </div>
+      </article>
+      <article class="dish-card" data-reveal data-delay="2">
+        <div class="dish-img">
+          <img src="https://img02.restaurantguru.com/c837-Athos-Berlin-meals-3.jpg" alt="Suflaki mit Zaziki – Restaurant Athos Berlin" loading="lazy">
+        </div>
+        <div class="dish-body">
+          <span class="dish-tag">🏛️ Klassiker</span>
+          <h3>Suflaki mit Zaziki</h3>
+          <p>2 Schweinefleischschpieße vom Grill, serviert mit Zaziki, Pommes und Reis.</p>
+          <div class="dish-footer">
+            <span class="dish-price">17,90 €</span>
+            <a href="speisekarte.html" class="btn btn-outline-blue btn-sm">Zur Speisekarte</a>
+          </div>
+        </div>
+      </article>
+      <article class="dish-card" data-reveal data-delay="3">
+        <div class="dish-img">
+          <img src="https://img02.restaurantguru.com/cace-Athos-Berlin-dishes-2.jpg" alt="Athos-Teller – Restaurant Athos Berlin" loading="lazy">
+        </div>
+        <div class="dish-body">
+          <span class="dish-tag">🏛️ Unser Signature</span>
+          <h3>Athos-Teller</h3>
+          <p>Gyros, Suflaki, Lammkotelett, Schweinesteak, Zaziki, Pommes und Reis – alles auf einem Teller.</p>
+          <div class="dish-footer">
+            <span class="dish-price">20,50 €</span>
+            <a href="speisekarte.html" class="btn btn-outline-blue btn-sm">Zur Speisekarte</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIE -->
+<section class="gallery section-pad" id="galerie">
+  <div class="container">
+    <div class="section-header centered" data-reveal style="margin-bottom: var(--space-2xl);">
+      <div class="section-eyebrow">Galerie</div>
+      <h2 class="section-heading">Einblicke ins<br><em>Athos</em></h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item" tabindex="0"><img src="https://img02.restaurantguru.com/cc44-Athos-Berlin-meals-2.jpg" alt="Authentische griechische Gerichte im Restaurant Athos" loading="lazy"><div class="gallery-item-overlay"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div>
+      <div class="gallery-item" tabindex="0"><img src="https://img02.restaurantguru.com/c837-Athos-Berlin-meals-3.jpg" alt="Griechische Mahlzeit im Athos" loading="lazy"><div class="gallery-item-overlay"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div>
+      <div class="gallery-item" tabindex="0"><img src="https://img02.restaurantguru.com/cace-Athos-Berlin-dishes-2.jpg" alt="Mediterrane Gerichte im Athos" loading="lazy"><div class="gallery-item-overlay"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div>
+      <div class="gallery-item" tabindex="0"><img src="https://img02.restaurantguru.com/c5ca-Athos-Berlin-food-3.jpg" alt="Frische griechische Speisen aus dem Athos" loading="lazy"><div class="gallery-item-overlay"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div></div>
+    </div>
+  </div>
+</section>
+<div class="lightbox" id="lightbox"><img id="lightbox-img" src="" alt=""><button class="lightbox-close" id="lightbox-close" aria-label="Schließen"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button></div>
+
+<!-- BEWERTUNGEN -->
+<section class="reviews section-pad" id="bewertungen">
+  <div class="container">
+    <div class="section-header centered" data-reveal>
+      <div class="section-eyebrow">Was unsere Gäste sagen</div>
+      <h2 class="section-heading">Bewertungen, auf die<br><em>wir stolz sind</em></h2>
+    </div>
+    <div class="reviews-rating-header" data-reveal>
+      <div style="text-align:center;">
+        <div class="rating-score">4,5</div>
+        <div class="rating-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div>
+        <p class="rating-count">Gesamtdurchschnitt aus über 800 Bewertungen</p>
+      </div>
+      <div class="rating-sources">
+        <div class="rating-source"><span class="rating-source-val">4,5 ★</span><span class="rating-source-name">Google</span><span class="rating-source-name" style="font-size:0.7rem;color:var(--text-light)">773 Bewertungen</span></div>
+        <div class="rating-source"><span class="rating-source-val">4,7 ★</span><span class="rating-source-name">Facebook</span><span class="rating-source-name" style="font-size:0.7rem;color:var(--text-light)">60 Bewertungen</span></div>
+        <div class="rating-source"><span class="rating-source-val">4,3 ★</span><span class="rating-source-name">TripAdvisor</span><span class="rating-source-name" style="font-size:0.7rem;color:var(--text-light)">34 Bewertungen</span></div>
+      </div>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card" data-reveal data-delay="1">
+        <div class="review-header"><div class="reviewer-info"><div class="reviewer-avatar">G</div><div><span class="reviewer-name">Google Maps</span><span class="reviewer-source">Verifizierte Bewertung · 5 Sterne</span></div></div><div class="review-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div></div>
+        <p class="review-text">Athos was fantastic. Suflaki was fabulous. The service was super.</p>
+      </div>
+      <div class="review-card" data-reveal data-delay="2">
+        <div class="review-header"><div class="reviewer-info"><div class="reviewer-avatar">G</div><div><span class="reviewer-name">Google Maps</span><span class="reviewer-source">Verifizierte Bewertung · 5 Sterne</span></div></div><div class="review-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div></div>
+        <p class="review-text">Immer sehr lecker. Essen: 5, Service: 5, Atmosphäre: 5.</p>
+      </div>
+      <div class="review-card" data-reveal data-delay="3">
+        <div class="review-header"><div class="reviewer-info"><div class="reviewer-avatar">T</div><div><span class="reviewer-name">TripAdvisor</span><span class="reviewer-source">Verifizierte Bewertung · 5 Sterne</span></div></div><div class="review-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div></div>
+        <p class="review-text">Very clean and cared for, with large portions and huge variety. Highly recommended!</p>
+      </div>
+      <div class="review-card" data-reveal data-delay="1">
+        <div class="review-header"><div class="reviewer-info"><div class="reviewer-avatar">T</div><div><span class="reviewer-name">TripAdvisor</span><span class="reviewer-source">Verifizierte Bewertung · 5 Sterne</span></div></div><div class="review-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div></div>
+        <p class="review-text">Really cheap, good, typical, and huge portions! The mixed grill was big, with good different kinds of meat.</p>
+      </div>
+      <div class="review-card" data-reveal data-delay="2">
+        <div class="review-header"><div class="reviewer-info"><div class="reviewer-avatar">T</div><div><span class="reviewer-name">TripAdvisor</span><span class="reviewer-source">Verifizierte Bewertung · 5 Sterne</span></div></div><div class="review-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div></div>
+        <p class="review-text">Great food and place. The owner is amazing and friendly. Top tier cuisine.</p>
+      </div>
+      <div class="review-card" data-reveal data-delay="3">
+        <div class="review-header"><div class="reviewer-info"><div class="reviewer-avatar">F</div><div><span class="reviewer-name">Facebook</span><span class="reviewer-source">Verifizierte Bewertung · 5 Sterne</span></div></div><div class="review-stars"><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span><span class="star">★</span></div></div>
+        <p class="review-text">Toller Grieche in Berlin Pankow. Vine leaves and Greek plate were phenomenal. Cozy atmosphere.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq section-pad bg-cream" id="faq">
+  <div class="container">
+    <div class="section-header centered" data-reveal>
+      <div class="section-eyebrow">Häufige Fragen</div>
+      <h2 class="section-heading">Alles, was Sie<br><em>wissen möchten</em></h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item"><button class="faq-question" aria-expanded="false"><span class="faq-question-text">Wie kann ich Kontakt aufnehmen?</span><span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-answer"><div class="faq-answer-inner">Sie erreichen uns telefonisch unter <a href="tel:+493081477287" style="color:var(--blue)">+49 30 81477287</a> oder per WhatsApp. Wir freuen uns auf Ihren Anruf – besonders für größere Gruppen empfehlen wir eine telefonische Voranmeldung.</div></div></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false"><span class="faq-question-text">Gibt es vegetarische Optionen?</span><span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-answer"><div class="faq-answer-inner">Ja! Unsere Speisekarte bietet zahlreiche vegetarische Gerichte: Gemüse-Mezedes, Salate, gebratene Auberginen und Zucchini, Dolmadakia, Saganaki und mehr.</div></div></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false"><span class="faq-question-text">Haben Sie eine Außenterrasse?</span><span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-answer"><div class="faq-answer-inner">Ja! Wir haben eine großzügige Außenterrasse mit Sonnenschirmen – im Sommer ein echtes mediterranes Urlaubsgefühl mitten in Berlin.</div></div></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false"><span class="faq-question-text">Wie sind die Öffnungszeiten?</span><span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-answer"><div class="faq-answer-inner"><strong>Montag bis Freitag:</strong> 15:00–23:00 Uhr<br><strong>Samstag &amp; Sonntag:</strong> 11:30–23:00 Uhr</div></div></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false"><span class="faq-question-text">Nehmen Sie auch größere Gruppen an?</span><span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-answer"><div class="faq-answer-inner">Sehr gerne! Wir freuen uns über größere Tische, Geburtstage und Familienfeiern. Bitte kontaktieren Sie uns frühzeitig.</div></div></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false"><span class="faq-question-text">Gibt es Lieferservice?</span><span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-answer"><div class="faq-answer-inner">Ja, wir liefern über Lieferando. Außerdem können Sie Speisen telefonisch bestellen und direkt abholen.</div></div></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false"><span class="faq-question-text">Ist das Restaurant barrierefrei?</span><span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-answer"><div class="faq-answer-inner">Ja, der Eingang ist barrierefrei und für Rollstuhlfahrer zugänglich.</div></div></div>
+      <div class="faq-item"><button class="faq-question" aria-expanded="false"><span class="faq-question-text">Kann ich mit Kreditkarte zahlen?</span><span class="faq-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span></button><div class="faq-answer"><div class="faq-answer-inner">Ja, wir akzeptieren alle gängigen Kreditkarten sowie EC-Karte. Barzahlung ist selbstverständlich auch möglich.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- KONTAKT & ANFAHRT -->
+<section class="contact" id="kontakt">
+  <div class="contact-location-wrap">
+    <div class="container">
+      <div class="section-header centered contact-header" data-reveal>
+        <div class="section-eyebrow">Kontakt &amp; Anfahrt</div>
+        <h2 class="section-heading">Besuchen Sie<br><em>uns</em></h2>
+        <p class="section-desc">Wir freuen uns auf Ihren Besuch – kommen Sie vorbei oder nehmen Sie direkt Kontakt auf.</p>
+      </div>
+      <div class="contact-split">
+        <div class="contact-info-side" data-reveal="left">
+          <div class="contact-detail-item">
+            <div class="contact-detail-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="contact-detail-body">
+              <span class="contact-detail-label">Adresse</span>
+              <span class="contact-detail-value">Hermann-Hesse-Straße 27<br>13156 Berlin-Pankow</span>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="contact-detail-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 2.93 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 17z"/></svg>
+            </div>
+            <div class="contact-detail-body">
+              <span class="contact-detail-label">Telefon</span>
+              <span class="contact-detail-value"><a href="tel:+493081477287">+49 30 81477287</a></span>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="contact-detail-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="contact-detail-body">
+              <span class="contact-detail-label">Öffnungszeiten</span>
+              <span class="contact-detail-value">Montag – Freitag: 15:00 – 23:00<br>Samstag &amp; Sonntag: 11:30 – 23:00</span>
+            </div>
+          </div>
+          <div class="contact-detail-item">
+            <div class="contact-detail-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </div>
+            <div class="contact-detail-body">
+              <span class="contact-detail-label">E-Mail</span>
+              <span class="contact-detail-value"><a href="mailto:info@restaurant-athos.de">info@restaurant-athos.de</a></span>
+            </div>
+          </div>
+          <div class="contact-cta-row">
+            <a href="https://wa.me/493081477287?text=Hallo!%20Ich%20m%C3%B6chte%20gerne%20Kontakt%20aufnehmen." target="_blank" rel="noopener" class="btn btn-whatsapp">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+              WhatsApp schreiben
+            </a>
+            <a href="tel:+493081477287" class="btn btn-contact-call">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 2.93 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 17z"/></svg>
+              Jetzt anrufen
+            </a>
+          </div>
+        </div>
+        <div class="contact-map-side" data-reveal="right">
+          <iframe title="Restaurant Athos auf Google Maps" src="https://maps.google.com/maps?q=Hermann-Hesse-Stra%C3%9Fe+27%2C+13156+Berlin&output=embed&z=17&hl=de" loading="lazy" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-form-section">
+    <div class="container">
+      <div class="contact-form-inner" data-reveal>
+        <div class="contact-form-intro">
+          <div class="section-eyebrow">Schreiben Sie uns</div>
+          <h3 class="contact-form-heading">Haben Sie eine Frage?<br><em>Wir antworten gerne</em></h3>
+          <p class="contact-form-subtext">Für Anfragen, Sonderwünsche oder Informationen – wir sind für Sie da.</p>
+        </div>
+        <form id="contact-form" class="cform" novalidate>
+          <div class="cform-row two-col">
+            <div class="cform-group">
+              <label for="cf-name">Ihr Name <span aria-hidden="true">*</span></label>
+              <input type="text" id="cf-name" name="name" placeholder="Max Mustermann" required autocomplete="name">
+            </div>
+            <div class="cform-group">
+              <label for="cf-contact">Telefon oder E-Mail <span aria-hidden="true">*</span></label>
+              <input type="text" id="cf-contact" name="contact" placeholder="+49 30 … oder name@email.de" required autocomplete="tel">
+            </div>
+          </div>
+          <div class="cform-row">
+            <div class="cform-group">
+              <label for="cf-message">Ihre Nachricht <span aria-hidden="true">*</span></label>
+              <textarea id="cf-message" name="message" placeholder="Wie können wir Ihnen helfen?" required></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-terracotta cform-submit">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            Nachricht senden
+          </button>
+        </form>
+        <div class="cform-success" id="cform-success">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          <h3>Nachricht gesendet!</h3>
+          <p>Vielen Dank! Wir melden uns baldmöglichst bei Ihnen.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-main container">
+    <div class="footer-brand">
+      <a href="index.html"><span class="logo-name">Athos</span><span class="logo-sub">Griechisches Restaurant · Berlin</span></a>
+      <p class="footer-tagline">Authentische mediterrane Küche und herzliche Gastfreundschaft in Berlin-Pankow.</p>
+    </div>
+    <div>
+      <span class="footer-col-title">Navigation</span>
+      <ul class="footer-links">
+        <li><a href="#ueber-uns">Über Uns</a></li>
+        <li><a href="speisekarte.html">Speisekarte</a></li>
+        <li><a href="#galerie">Galerie</a></li>
+        <li><a href="#bewertungen">Bewertungen</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </div>
+    <div>
+      <span class="footer-col-title">Öffnungszeiten</span>
+      <div class="footer-hours-list">
+        <div class="footer-hours-row"><span class="hours-day">Montag</span><span class="hours-time">15:00–23:00</span></div>
+        <div class="footer-hours-row"><span class="hours-day">Dienstag</span><span class="hours-time">15:00–23:00</span></div>
+        <div class="footer-hours-row"><span class="hours-day">Mittwoch</span><span class="hours-time">15:00–23:00</span></div>
+        <div class="footer-hours-row"><span class="hours-day">Donnerstag</span><span class="hours-time">15:00–23:00</span></div>
+        <div class="footer-hours-row"><span class="hours-day">Freitag</span><span class="hours-time">15:00–23:00</span></div>
+        <div class="footer-hours-row"><span class="hours-day">Samstag</span><span class="hours-time">11:30–23:00</span></div>
+        <div class="footer-hours-row"><span class="hours-day">Sonntag</span><span class="hours-time">11:30–23:00</span></div>
+      </div>
+    </div>
+    <div>
+      <span class="footer-col-title">Kontakt</span>
+      <div class="footer-links">
+        <a href="tel:+493081477287">+49 30 81477287</a>
+        <a href="https://wa.me/493081477287" target="_blank" rel="noopener">WhatsApp schreiben</a>
+        <span style="color:rgba(255,255,255,0.5);font-size:0.9rem">Hermann-Hesse-Str. 27<br>13156 Berlin-Pankow</span>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container" style="display:flex;flex-direction:column;align-items:center;gap:var(--space-xs);width:100%">
+      <p>© 2025 Restaurant Athos · Hermann-Hesse-Str. 27 · 13156 Berlin-Pankow · <a href="tel:+493081477287">+49 30 81477287</a></p>
+      <p style="font-size:0.78rem">Alle Preise inkl. MwSt. · Irrtümer und Änderungen vorbehalten</p>
+    </div>
+  </div>
+</footer>
+
+<div class="floating-actions">
+  <a href="https://wa.me/493081477287?text=Hallo!%20Ich%20m%C3%B6chte%20gerne%20Kontakt%20aufnehmen." class="fab fab-whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+  </a>
+  <a href="tel:+493081477287" class="fab fab-phone" aria-label="Anrufen">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.07 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 2.93 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 17z"/></svg>
+  </a>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
